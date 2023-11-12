@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Angelica Pedroza">
+    <meta name="description" content="Portafolio de desarrollo web de Angelica Pedroza">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Angelica Pedroza | Desarrollo Web y Geofísica </title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.svg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,500&family=Dancing+Script&family=Signika+Negative&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.svg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Prácticas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/Foto_Angelica.jpeg" alt="Foto de Angelica">
+        <h1>Hola, soy Angelica Pedroza Rojas</h1>
+        <!--<h2Comenzando en el desarrollo sitios web y estudio geofísica.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/img-mundo.svg" alt="Monitor, mujer-laptop, tierra en capas y logos de HTML, CSS.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Angelica</h2>
+        <p class="seccion-texto">Estudiante de ingeniería geofísica con pasión por la geotecnia y sismología. Experiencia en prospecciones geofísicas en prácticas de campo. Explorando lenguajes de programación para ampliar mi horizonte, especialmente en el desarrollo web y divulgación de la ciencia. Entusiasmada por integrar la geofísica con la tecnología para generar soluciones innovadoras en prevención de riesgos, procesamiento e inversión de datos geofísicos.</p>
+      </div>
+    </section>
+
+    <!-- Formación/Idioma/Organizaciones/Competencias -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Idioma -->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-mortarboard"></i>
+            <p class="experiencia-titulo">Formación</p>
+            <p>Las instituciones más recientes en las que he estudiado.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Bachillerato - Colegio de Ciencias y Humanidades Plantel Oriente</span>
+              <span class="badge text-bg-primary">(08/2015 - 06/2018)</span>
+              <span class="badge text-bg-primary">Ingeniería Geofísica - Universidad Nacional Autónoma de México</span>
+              <span class="badge text-bg-primary">(08/2018 - Presente)</span>
+            </div>
+          </div>
+          <!-- Idioma -->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-chat"></i>
+            <p class="experiencia-titulo">Idioma</p>
+            <p>Considero que el conocimiento de otros idiomas es una gran herramienta para adentrarse en el mundo del desarrollo web y la colaboración con otras naciones.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Español - Competencia nativa</span>
+              <span class="badge text-bg-primary">Inglés - Competencia profesional de trabajo</span>
+            </div>
+          </div>
+          <!-- Organizaciones -->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-people"></i>
+            <p class="experiencia-titulo">Organizaciones</p>
+            <p>Durante mi formación universitaria me he interesado por la comunidad de mi carrera y la difusión de información sobre geofísica. Por ello participé en las siguientes sociedades de alumnos. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">SAGFI UNAM - Vicepresidente</span>
+              <span class="badge text-bg-primary">SGMCI CDMX - Ayudante general</span>
+            </div>
+          </div>
+          <!-- Competencias -->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-list-nested"></i>
+            <p class="experiencia-titulo">Competencias</p>
+            <p>Gracias a mi experiencia trabajando en agrupaciones estudiantiles, colaborando en equipos de trabajo y mi formación en general, he logrado obtener las siguientes competencias:</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Trabajo en equipo</span>
+              <span class="badge text-bg-primary">Hablar en público</span>
+              <span class="badge text-bg-primary">Iniciativa</span>
+              <span class="badge text-bg-primary">Manejo de QGIS</span>
+              <span class="badge text-bg-primary">Liderazgo</span>
+              <span class="badge text-bg-primary">Programación en Python</span>
+              <span class="badge text-bg-primary">Manejo de Excel</span>
+              <span class="badge text-bg-primary">Puntualidad</span>
+              <span class="badge text-bg-primary">Conocimiento de utilerías de GNU/Linux</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Prácticas -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Prácticas</h2>
+      <h3 class="seccion-descripcion">A continuación presento las actividades que estoy realizando relacionadas con mi carrera y programación:</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/img-iimas.svg" alt="Logo IIMAS">
+              <p class="testimonio-texto">Actualmente estoy realizando mi servicio social en el programa "Algoritmos evolutivos y bioinspirados y sus aplicaciones" del IIMAS de la UNAM, donde desarrollo distintas actividades como estudio, desarrollo e implementación de algoritmos genéticos, programación genética y algoritmos bioinspirados.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Servicio Social (en curso)</p>
+                <p class="cargo">Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/img-dgtic.svg" alt="Foto de supercómputo">
+              <p class="testimonio-texto">Soy becaria en el Programa de becas de Formación en Tecnologías de Información y Comunicación de la DGTIC UNAM, el cual consiste en acreditar un plan de capacitación en la línea de Supercómputo y Centro de datos para, posteriormente, integrarme a grupos de trabajo para participar en proyectos de aplicación de lo aprendido.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Colaboración (en curso)</p>
+                <p class="cargo">Dirección General de Cómputo y de Tecnologías de Información y Comunicación</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame, diseñemos tu proyecto y llevémoslo a la vida real.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:angelica.pedroza.rojas@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Exploro, sueño y construyo.<br> Vamos a crear juntos el próximo proyecto que marque la diferencia.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://github.com/AngiePR" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/angelica-pedroza-rojas-b09b0129a/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://instagram.com/angie_00pr?igshid=MWJyNjB2YXZ5bnRseA==" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:angelica.pedroza.rojas@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Angelica Pedroza Rojas(2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
