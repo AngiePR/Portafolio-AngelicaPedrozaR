@@ -12,17 +12,17 @@ Primera parte de la página web:
 
 ![Primera parte de la página web](imagenes/screenshot1.png)
 
-Experiencia:
+Sobre mí:
 
-![Experiencia](imagenes/screenshot2.png)
+![Sobre mí](imagenes/screenshot2.png)
 
 Proyectos:
 
 ![Proyectos](imagenes/screenshot3.png)
 
-Testimonios:
+Prácticas y Cursos/Talleres:
 
-![Testimonios](imagenes/screenshot4.png)
+![Prácticas y Cursos/Talleres](imagenes/screenshot4.png)
 
 Contacto:
 
